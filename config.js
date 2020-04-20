@@ -1,7 +1,7 @@
 module.exports = {
 
 
-	yourID: "473526373575819264",
+	yourID: "473526373575asdt41412412421412124124236234623465asdtasdt",
 
 	setupCMD: "!kasdfasdfasdfasdfasdfvczxcvn)",
 
