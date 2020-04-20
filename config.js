@@ -35,5 +35,5 @@ module.exports = {
 
 	embedThumbnailLink: "https://sun9-40.userapi.com/c206728/v206728499/8f166/hreTmG7O_CQ.jpg",
 
-	botToken: "token"
+	BOT_TOKEN: "token"
 };
