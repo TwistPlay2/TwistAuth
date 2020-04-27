@@ -1,7 +1,7 @@
 module.exports = {
 
 
-	yourID: "опять",
+	yourID: "473526373575819264",
 
 	setupCMD: "!kasdfasdfasdfasdfasdfvczxcvn)",
 
