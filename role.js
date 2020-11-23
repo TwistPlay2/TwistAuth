@@ -137,7 +137,6 @@ client.on('raw', async event => {
     const channel = client.channels.get(data.channel_id);
 
     const message = await channel.fetchMessage(data.message_id);
-    const member = message.guild.members.get(user.id);
 
     const emojiKey = (data.emoji.id) ? `${data.emoji.name}:${data.emoji.id}` : data.emoji.name;
     let reaction = message.reactions.get(emojiKey);
