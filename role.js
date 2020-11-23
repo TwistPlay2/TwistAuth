@@ -169,7 +169,7 @@ client.on('raw', async event => {
             const fields = message.embeds[0].fields;
 
             for (const { name, value } of fields) {
-                if (member.id !== client.user.id) {
+                if (member !== client.user) {
                     const guildRole = message.guild.roles.find(r => r.name === value);
                     if ((name === reaction.emoji.name) || (name === reaction.emoji.toString())) {
                         if (event.t === "MESSAGE_REACTION_ADD") member.addRole(guildRole.id);
